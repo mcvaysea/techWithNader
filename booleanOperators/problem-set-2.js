@@ -10,5 +10,24 @@
 */
 
 console.log("<------Problem Set 2------>");
+// const one = true && "hi"; <----should be true
+console.log(`const one = true && "hi" is:`);
+const one1 = true && "hi";
+console.log(one1);
 
-console.log("<------Walkthru w/Nader------>");
+// const two = false && "bye"; <-----should be 'bye'
+console.log(`const two = false && "bye"`);
+const two1 = false && "bye";
+console.log(two1);
+
+// const three = true || "meow"; <------should be 'meow'
+console.log(`const three = true || "meow"`);
+const three1 = true || "meow";
+console.log(three1);
+
+// const four = false || "rawr"; <------should be false
+console.log(`const four = false || "rawr"`);
+const four1 = false || "rawr";
+console.log(four1);
+
+

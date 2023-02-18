@@ -11,4 +11,10 @@
 
 console.log("<------Problem Set 3------>");
 
-console.log("<------Walkthru w/Nader------>");
+true && console.log("moo");
+
+false && console.log("moo moo?");
+
+true || console.log("hello friend");
+
+false || console.log("bye friend");

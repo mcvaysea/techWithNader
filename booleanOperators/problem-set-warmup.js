@@ -11,4 +11,20 @@
 
 console.log("<------Warm-up Problem Set------>");
 
+console.log("<------BOOLEAN &&------>");
+console.log("true && true are:", true && true);
+console.log("true && false are:", true && false);
+console.log("false && true are:", false && true);
+console.log("false && false are:", false && false);
+
+console.log("<------BOOLEAN ||------>");
+console.log("true || true are:", true || true);
+console.log("false || true are:", false || true);
+console.log("true || false are:", true || false);
+console.log("false || false are:", false || false);
+
+console.log("<------NOT------>");
+console.log('!true is:' , !true);
+console.log('!false is:' , !false);
+
 console.log("<------Walkthru w/Nader------>");
