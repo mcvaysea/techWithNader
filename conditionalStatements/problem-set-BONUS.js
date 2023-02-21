@@ -4,7 +4,7 @@
     2. Use let to create a variable that points to a Number
        - Then add another Number to this same variable and print it out
 */
-
+/* 
 console.log("<------BONUS Problem Set------>");
 
 let var1 = "Sean";
@@ -18,5 +18,5 @@ console.log(`${var1}${var2}`);
 
 console.log("<------Walkthru w/Nader------>");
 
-
+ */
 
