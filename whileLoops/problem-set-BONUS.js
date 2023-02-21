@@ -6,11 +6,5 @@
 */
 
 console.log("<------BONUS Problem Set------>");
-console.log(``);
 
-console.log(``);
 console.log("<------Walkthru w/Nader------>");
-console.log(``);
-
-
-
