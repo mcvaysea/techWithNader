@@ -17,7 +17,7 @@
     You made it!
     All, done!
 */
-
+/* 
 console.log("<------Problem Set 3------>");
 console.log(``);
 
@@ -64,3 +64,4 @@ while (count <= 100) {
   count++;
 }
 console.log(`All, Done!!`);
+ */
