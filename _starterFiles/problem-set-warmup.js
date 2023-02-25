@@ -12,7 +12,7 @@
 */
 
 console.log("<------Warm-up Problem Set------>");
-console.log(``);
+console.log(` `);
 
 
 
@@ -21,7 +21,7 @@ console.log(``);
 
 
 
-console.log(``);
+console.log(` `);
 console.log("<------Walkthru w/Nader------>");
-console.log(``);
+console.log(` `);
 

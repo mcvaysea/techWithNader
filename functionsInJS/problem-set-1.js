@@ -1,24 +1,21 @@
-/* 
-    1. Create a variable called name that points at a string containing your name
-    2. On the next line, re-assign the variable above to your favourite musician's name
-    3. On the next line, re-assign the variable again to the value: true
-    3. On the next line, re-assign the variable one last time to the value: 42
-    After each of the above steps, log out the variable to the terminal with console.log.
+/*
+    Write a function called "noRemainder":
+    1. This function has two parameters:
+        - number
+        - mod
+    2. The function will return:
+        - true: if "number" is evenly divisible by "mod" (no remainder)
+        - false: if "number" is not evenly divisible by "mod" (has a remainder)
+    3. Call your function like so:
+        const result1 = noRemainder(10, 7); // result1 should be false
+        const result2 = noRemainder(100, 10); // result2 should be true
 */
 
 console.log("<------Problem Set 1------>");
 console.log(``);
 
-
-
 //////////////////////////////////////////////////////////////////
-
-
 
 console.log(``);
 console.log("<------Walkthru w/Nader------>");
 console.log(``);
-
-
-
-

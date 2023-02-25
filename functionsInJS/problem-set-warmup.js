@@ -1,27 +1,53 @@
-/* 
-   Create a constant variable of each of the following primitive types:
-   - String
-   - Number
-   - Boolean
-   - Null
-   - Undefined
-   Use console.log to log out each variable to the terminal at the end.
-   HINT1: You can run your file in the terminal using this command: node <file_name>
-          For example, if your file is called ps1.js, you would type: node ps1.js
-   HINT2: Make sure your terminal is "looking at" the correct folder where your code is
+/*
+    Write a function called "chill" that does the following:
+    1. Prints out at the start: "Doing some chilling:"
+    2. Then, prints out:
+        "Chill... 1"
+        "Chill... 2"
+        "Chill... 3"
+        ...
+        "Chill... 10"
+    3. Then finally prints out: "That was ice cold!""
+    When you're done, call the function once.
 */
 
-console.log("<------Warm-up Problem Set------>");
+// -----arrow function form-----
+/* console.log("<------Warm-up Problem Set------>");
 console.log(``);
 
+const chill = () => {
+  console.log("Doing some chilling");
+  for (let i = 1; i <= 10; i++) {
+    console.log("Chill... " + i);
+  }
+  console.log("That was ice cold!");
+};
 
+chill(); */
 
+// -----regular function form-----
+/* 
+function chillToo() {
+  console.log(`Doing some chilling here:`);
+  for (let i = 1; i <= 10; i++) {
+    console.log(`Chill... ${i}`);
+  }
+  console.log(`That was ice cold yo...`);
+}
+
+chillToo();
+ */
 //////////////////////////////////////////////////////////////////
 
-
-
-
-console.log(``);
+console.log(`\n`);
 console.log("<------Walkthru w/Nader------>");
-console.log(``);
+console.log(`\n`);
 
+const chillOne = () => {
+  console.log(`Doing some chilling..`);
+  for (let i = 1; i <= 10; i++) {
+    console.log(`Chill... ${i}`);
+  }
+  console.log(`That was ice cold Nader`);
+};
+chillOne();
