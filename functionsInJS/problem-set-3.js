@@ -17,10 +17,56 @@
 */
 
 console.log("<------Problem Set 3------>");
-console.log(``);
+// console.log(``);
+
+//---- arrow function ----
+// const sumOfSquares = (num1, num2) => {
+//     let sumSquared = (num1 *= num1) + (num2 *= num2);
+//     return sumSquared;
+// }
+// const sum1 = sumOfSquares(2, 3); // "sum1" should be 13 (4 + 9)
+// const sum2 = sumOfSquares(3, 4); // "sum2" should be 25 (9 + 16)
+// const sum3 = sumOfSquares(5, 9); // "sum3" should be 106 (25 + 81)
+
+// console.log(sum1);
+// console.log(sum2);
+// console.log(sum3);
+
+//---- regular function ----
+// function sumOfSquares(num1, num2) {
+//   let sumSquare = (num1 *= num1) + (num2 *= num2);
+
+//   return sumSquare;
+// }
+// const sum1 = sumOfSquares(2, 3);
+// const sum2 = sumOfSquares(3, 4);
+// const sum3 = sumOfSquares(5, 9);
+
+// console.log(sum1);
+// console.log(sum2);
+// console.log(sum3);
+
+// console.log(sumOfSquares(2, 3));
+// console.log(sumOfSquares(5, 9));
 
 //////////////////////////////////////////////////////////////////
 
 console.log(``);
 console.log("<------Walkthru w/Nader------>");
 console.log(``);
+
+const square = (num) => {
+  return num ** 2;
+};
+
+const sumOfSquares = (num1, num2) => {
+  return square(num1) + square(num2);
+};
+
+const sum1 = sumOfSquares(2, 3); // "sum1" should be 13 (4 + 9)
+const sum2 = sumOfSquares(3, 4); // "sum1" should be 25 (9 + 16)
+
+console.log(sum1);
+console.log(sum2);
+
+console.log(sum1, sum2);

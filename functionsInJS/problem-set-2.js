@@ -17,10 +17,91 @@
 */
 
 console.log("<------Problem Set 2------>");
-console.log(``);
+// console.log(``);
+
+//---- arrow function ----
+// const login = (username, password) => {
+//     if (username === "admin") {
+//         return true;
+//     } else if (username === "monkey" && password === "123") {
+//         return true;
+//     } else if (username === "moomoo" && password === "farm") {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// const test = login('hello', 'meow'); // "test" should be false
+// const test2 = login('admin', 'lol'); // "test2" should be true
+// const test3 = login('monkey', '123'); // "test3" should be true
+// const test4 = login('moomoo', 'farm'); // "test4" should be true
+// const test5 = login('moomoo', 'moo'); // "test5" should be false
+
+// console.log(test);
+// console.log(test2);
+// console.log(test3);
+// console.log(test4);
+// console.log(test5);
+
+//---- regular function ----
+
+// function login(username, password) {
+//     if (username === "admin") {
+//         return true;
+//     } else if (username === "monkey"  && password === "123") {
+//         return true;
+//     } else if (username === "moomoo"  && password === "farm") {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// const test = login('hello', 'meow'); // "test" should be false
+// const test2 = login('admin', 'lol'); // "test2" should be true
+// const test3 = login('monkey', '123'); // "test3" should be true
+// const test4 = login('moomoo', 'farm'); // "test4" should be true
+// const test5 = login('moomoo', '123'); // "test5" should be false
+// const test6 = login('moomoo', 'moo'); // "test5" should be false
+// const test7 = login('corey', 'morey'); // "test5" should be false
+// const test8 = login('monkey', '123'); // "test5" should be false
+
+// console.log(test);
+// console.log(test2);
+// console.log(test3);
+// console.log(test4);
+// console.log(test5);
+// console.log(test6);
+// console.log(test7);
+// console.log(test8);
 
 //////////////////////////////////////////////////////////////////
 
 console.log(``);
 console.log("<------Walkthru w/Nader------>");
 console.log(``);
+
+const login = (username, password) => {
+  if (username === "admin") {
+    return true;
+  }
+  if (username === "monkey" && password === "123") {
+    return true;
+  }
+
+  if (username === "moomoo" && password === "farm") {
+    return true;
+  }
+  return false;
+};
+
+const test = login("hello", "meow"); // "test" should be false
+const test2 = login("admin", "lol"); // "test2" should be true
+const test3 = login("monkey", "123"); // "test3" should be true
+const test4 = login("moomoo", "farm"); // "test4" should be true
+const test5 = login("moomoo", "moo"); // "test5" should be false
+
+console.log(test);
+console.log(test2);
+console.log(test3);
+console.log(test4);
+console.log(test5);
