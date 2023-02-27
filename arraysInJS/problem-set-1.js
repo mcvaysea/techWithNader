@@ -29,7 +29,7 @@ console.log("<------Problem Set 1------>");
 //////////////////////////////////////////////////////////////////
 
 
-
+/* 
 console.log(` `);
 console.log("<------Walkthru w/Nader------>");
 console.log(` `);
@@ -37,18 +37,18 @@ console.log(` `);
 const multiple = 11;
 const numbers = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]; 
 
-// for (let i = 0; i < numbers.length; i++) {
-//     const result = multiple * numbers[i];
-//     console.log(`${numbers[i]} x ${multiple} = ${result}`);
+for (let i = 0; i < numbers.length; i++) {
+    const result = multiple * numbers[i];
+    console.log(`${numbers[i]} x ${multiple} = ${result}`);
+}
+ */
+
+// function multiplier(numbers, multiple) {
+//     for (let i = 0; i < numbers.length; i++) {
+//       const result = multiple * numbers[i];
+
+//       return `${numbers[i]} x ${multiple} = ${result}`;
+//     }
 // }
 
-
-function multiplier(numbers, multiple) {
-    for (let i = 0; i < numbers.length; i++) {
-      const result = multiple * numbers[i];
-
-      return `${numbers[i]} x ${multiple} = ${result}`;
-    }
-}
-
-console.log(multiplier(numbers[], multiple));
+// console.log(multiplier(numbers[], multiple));

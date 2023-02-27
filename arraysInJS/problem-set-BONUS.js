@@ -18,8 +18,25 @@
 console.log("<------BONUS Problem Set------>");
 console.log(` `);
 
+const bakery = ["Cake", "Cookie", "Bread", "Scone"];
+console.log(bakery);
+
+const myBakery = bakery;
+console.log(myBakery);
+
+myBakery.push("Croissant");
+myBakery.push("Granola");
+console.log(myBakery);
+console.log(bakery);
+bakery.push("Cheescake", "Danish");
+console.log(myBakery);
+console.log(bakery);
+
+
+
+
 //////////////////////////////////////////////////////////////////
 
-console.log(` `);
-console.log("<------Walkthru w/Nader------>");
-console.log(` `);
+// console.log(` `);
+// console.log("<------Walkthru w/Nader------>");
+// console.log(` `);
